@@ -1,6 +1,6 @@
 import 'package:json_annotation/json_annotation.dart';
 
-part 'covers.g.dart';
+part 'covers_dto.g.dart';
 
 @JsonSerializable(createToJson: false)
 class CoversDto {
