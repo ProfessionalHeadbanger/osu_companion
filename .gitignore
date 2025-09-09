@@ -65,3 +65,5 @@ app-release.ipa
 # Generated files
 lib/api/dto/*/*.g.dart
 lib/api/service/*.g.dart
+
+/lib/constants/app_secrets.dart
