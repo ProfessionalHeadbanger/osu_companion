@@ -28,7 +28,8 @@ enum BeatmapPackTypeDto {
 
   const BeatmapPackTypeDto(this.json);
 
-  factory BeatmapPackTypeDto.fromJson(String json) => values.firstWhere((value) => value.json == json, orElse: () => other);
+  factory BeatmapPackTypeDto.fromJson(String json) =>
+      values.firstWhere((value) => value.json == json, orElse: () => other);
 
   final String? json;
 

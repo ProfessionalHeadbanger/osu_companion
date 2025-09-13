@@ -118,7 +118,7 @@ class BeatmapDto {
     this.modeInt,
     this.passcount,
     this.playcount,
-    this.ranked
+    this.ranked,
   });
 
   factory BeatmapDto.fromJson(Map<String, dynamic> json) => _$BeatmapDtoFromJson(json);

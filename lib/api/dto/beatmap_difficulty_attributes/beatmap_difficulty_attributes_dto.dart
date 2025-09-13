@@ -7,7 +7,7 @@ class BeatmapDifficultyAttributesDto {
   // required
   @JsonKey(name: 'star_rating')
   final double starRating;
-  
+
   @JsonKey(name: 'max_combo')
   final int maxCombo;
 
@@ -50,5 +50,6 @@ class BeatmapDifficultyAttributesDto {
     this.monoStaminaFactor,
   });
 
-  factory BeatmapDifficultyAttributesDto.fromJson(Map<String, dynamic> json) => _$BeatmapDifficultyAttributesDtoFromJson(json);
+  factory BeatmapDifficultyAttributesDto.fromJson(Map<String, dynamic> json) =>
+      _$BeatmapDifficultyAttributesDtoFromJson(json);
 }
