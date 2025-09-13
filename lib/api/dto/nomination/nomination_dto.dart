@@ -11,7 +11,7 @@ class NominationDto {
   final List<RulesetDto> rulesets;
 
   final bool reset;
-  
+
   @JsonKey(name: 'user_id')
   final int userId;
 

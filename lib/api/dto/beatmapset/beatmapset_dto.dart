@@ -8,7 +8,6 @@ part 'beatmapset_dto.g.dart';
 
 @JsonSerializable(createToJson: false)
 class BeatmapsetDto {
-
   // required
   final String artist;
 
@@ -49,7 +48,7 @@ class BeatmapsetDto {
   final int userId;
 
   final int video;
-  
+
   // optional
   final List<BeatmapDto>? beatmaps;
 
@@ -84,7 +83,7 @@ class BeatmapsetDto {
   @JsonKey(name: 'discussion_enabled')
   final bool? discussionEnabled;
 
-  @JsonKey(name:' discussion_locked')
+  @JsonKey(name: ' discussion_locked')
   final bool? discussionLocked;
 
   @JsonKey(name: 'hype.current')

@@ -39,10 +39,11 @@ class BeatmapsetDiscussionPostDto {
     required this.system,
     required this.updatedAt,
     required this.userId,
-    this.deletedAt,
-    this.deletedById,
-    this.lastEditorId,
+    required this.deletedAt,
+    required this.deletedById,
+    required this.lastEditorId,
   });
 
-  factory BeatmapsetDiscussionPostDto.fromJson(Map<String, dynamic> json) => _$BeatmapsetDiscussionPostDtoFromJson(json);
+  factory BeatmapsetDiscussionPostDto.fromJson(Map<String, dynamic> json) =>
+      _$BeatmapsetDiscussionPostDtoFromJson(json);
 }

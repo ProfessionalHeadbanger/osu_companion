@@ -18,8 +18,8 @@ class BeatmapPlaycountDto {
   const BeatmapPlaycountDto({
     required this.beatmapId,
     required this.count,
-    this.beatmap,
-    this.beatmapset,
+    required this.beatmap,
+    required this.beatmapset,
   });
 
   factory BeatmapPlaycountDto.fromJson(Map<String, dynamic> json) => _$BeatmapPlaycountDtoFromJson(json);
